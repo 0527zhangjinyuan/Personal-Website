@@ -2,7 +2,7 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = 2016-04-20T00:00:00
+date = 2017-07-16T00:00:00
 
 # Order that this section will appear in.
 weight = 5
@@ -10,31 +10,39 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Structure of the Earth's Deep Interior",
+    "Mechanisms of Small Seismic Events (Microseism, Explosions, Collapse)",
+    "Numerical Simulation of Wave Propagation in Complex Media",
+    "Full Waveform Inversion",
+    "Seismic Interferometry",
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Finance"
-  institution = "Stanford University"
-  year = 2012
+  course = "Ph.D. in Geophysics"
+  institution = "University of Science and Technology of China"
+  year = "2018"
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "BSc in Geophysics"
+  institution = "University of Science and Technology of China"
+  year = "2012"
 
 +++
 
-# Biography
+Dongdong Tian is a Ph.D. in Geophysics at
+[University of Science and Technology of China](http://en.ustc.edu.cn/),
+supervised by Prof. [Lianxing Wen](http://geophysics.geo.sunysb.edu/wen/).
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+He is passionate about contributing to a further understanding of structure
+of the Earth's deep interior, characteristics of seismic sources
+(e.g. Microseismic, Explosions, Collaspe) and numerical simulations of seismic wavefield propagation.
+He is working on the study of
+[fine-scale structure of the Earth's inner core boundary]({{< ref "project/inner-core-boundary.md" >}}).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+He is a fan of open source and also contributes to geophysics-related softwares, such as
+[GMT](http://gmt.soest.hawaii.edu/),
+[SAC](https://seiscode.iris.washington.edu/projects/sac)
+and [ObsPy](http://docs.obspy.org/).
+
+A complete cv can be downloaded {{% staticref "Dongdong_Tian_CV.pdf" "newtab" %}}here{{% /staticref %}}.

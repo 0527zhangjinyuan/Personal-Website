@@ -1,6 +1,6 @@
 +++
 title = "Publications"
-date = 2017-01-01T00:00:00
+date = 2017-07-16T00:00:00
 math = false
 highlight = false
 
@@ -13,6 +13,6 @@ list_format = 3
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = ""
+image = "headers/journals.png"
 caption = ""
 +++

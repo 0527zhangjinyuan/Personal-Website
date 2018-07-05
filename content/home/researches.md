@@ -2,13 +2,13 @@
 # Projects widget.
 widget = "projects"
 active = true
-date = 2016-04-20T00:00:00
+date = 2017-07-20T00:00:00
 
-title = "Projects"
+title = "Researches"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 50
+weight = 10
 
 # Content.
 # Display content from the following folder.
@@ -33,12 +33,12 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "Inner Core Boundary"
+  tag = ".inner-core-boundary"
 
 [[filter]]
-  name = "Other"
-  tag = ".demo"
+  name = "Nuclear Tests"
+  tag = ".nuclear-tests"
 
 +++
 
