@@ -3,14 +3,14 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://jinyuanzhang.netlify.com/"
 
 # Title of your site
-title = "Academic"
+title = "Jinyuan Zhang"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; 2018 Jinyuan Zhang"
 
 theme = "academic"
 enableEmoji = true
@@ -18,6 +18,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 paginate = 10
+disablePathToLower = true
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
@@ -27,7 +28,7 @@ googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
+hasCJKLanguage = true # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 # Get last modified date for content from Git?
@@ -38,7 +39,7 @@ enableGitInfo = false
   section = [ "HTML", "RSS" ]
 
 # Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/readfiles/bfconfig/
+#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
   hrefTargetBlank = true  # `true` opens external links in a new tab.
   fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
@@ -54,20 +55,20 @@ enableGitInfo = false
   font = "default"
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Dongdong Tian"
+  role = "Ph.D. in Geophysics"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "University of Science and Technology of China", url = "http://en.ustc.edu.cn/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  email = "dongzhi@mail.ustc.edu.cn"
+  address = "Room 1127, Research Building, University of Science and Technology of China, No. 96, Jinzhai Road, Hefei, Anhui 230026, China."
+  office_hours = ""
+  phone = "+86-15055117035"
+  skype = ""
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -96,10 +97,10 @@ enableGitInfo = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 0
-  map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  map = 1
+  map_api_key = "AIzaSyBP5DIVloAvKk7NCjV2NzvsH7wLa5BB2Pw"
+  latitude = "31.84127"
+  longitude = "117.27036"
   zoom = 15
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
@@ -148,12 +149,12 @@ enableGitInfo = false
   #
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
-  highlight = true
+  highlight = false
   highlight_languages = []
   # highlight_style = "github"
 
   # Enable native social sharing buttons?
-  sharing = true
+  sharing = false
 
   # Privacy pack
   #   Show a cookie consent message to visitors
@@ -162,7 +163,7 @@ enableGitInfo = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
+  custom_css = ['custom.css']
   custom_js  = []
 
   # Publication types.
@@ -224,25 +225,34 @@ enableGitInfo = false
   #   Full list: https://jpswalsh.github.io/academicons/
 
   [[params.social]]
-    icon = "envelope"
-    icon_pack = "fa"
-    link = "mailto:test@example.org"
-
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "http://orcid.org/0000-0001-7967-1197"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://scholar.google.com/citations?user=VITag6sAAAAJ"
+
+  [[params.social]]
+    icon = "researchgate"
+    icon_pack = "ai"
+    link = "https://www.researchgate.net/profile/Dongdong_Tian"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/seisman"
 
+  [[params.social]]
+    icon = "globe"
+    icon_pack = "fa"
+    link = "http://seisman.info"
+
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "mailto:dongzhi@mail.ustc.edu.cn"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -258,29 +268,44 @@ enableGitInfo = false
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "News"
+  url = "#news"
   weight = 2
 
 [[menu.main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Researches"
+  url = "#researches"
   weight = 3
 
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Publications"
+  url = "#publications_selected"
   weight = 4
 
 [[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
+  name = "Talks"
+  url = "#talks"
   weight = 5
+
+[[menu.main]]
+  name = "Resources"
+  url = "#resources"
+  weight = 6
+
+[[menu.main]]
+  name = "Services"
+  url = "#services"
+  weight = 7
+
+[[menu.main]]
+  name = "Awards"
+  url = "#awards"
+  weight = 8
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 9
 
 # Taxonomies.
 [taxonomies]
