@@ -3,7 +3,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://jinyuanzhang.netlify.com/"
+baseurl = "https://zhangjinyuan.com/"
 
 # Title of your site
 title = "Jinyuan Zhang"
@@ -52,7 +52,7 @@ enableGitInfo = false
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "default"
+  font = "classic"
 
   # Your details.
   name = "Jinyuan Zhang"
@@ -283,14 +283,9 @@ enableGitInfo = false
   weight = 5
 
 [[menu.main]]
-  name = "Awards"
-  url = "#awards"
-  weight = 6
-
-[[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 7
+  weight = 6
 
 # Taxonomies.
 [taxonomies]
