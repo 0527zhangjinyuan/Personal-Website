@@ -1,10 +1,10 @@
 +++
-title = "Seismic structure and dynamic process of the Earth's inner core and its boundary"
-date = 2018-03-05T00:00:00
+title = "Dynamic Trade Informativeness"
+date = 2018-07-06T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Lianxing Wen", "**Dongdong Tian**", "Jiayuan Yao"]
+authors = ["[Bart Zhou Yueshen](http://www.yueshen.me/)", "**Jinyuan Zhang**"]
 
 # Publication type.
 # Legend:
@@ -15,10 +15,10 @@ authors = ["Lianxing Wen", "**Dongdong Tian**", "Jiayuan Yao"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["2"]
+publication_types = ["7"]
 
 # Publication name and optional abbreviated version.
-publication = "*Chinese Journal of Geophysics (in Chinese)*"
+publication = "*SSRN working paper*"
 publication_short = ""
 
 # Abstract and optional shortened version.
@@ -36,14 +36,14 @@ selected = false
 #   Simply enter the filename of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning.md"]` references `content/project/deep-learning.md`.
 #   Otherwise, set `projects = []`.
-projects = ["inner-core-boundary"]
+projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = []
 
 # Links (optional).
-url_pdf = "https://doi.org/10.6038/cjg2018L0500"
+url_pdf = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3119538"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

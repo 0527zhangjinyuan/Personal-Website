@@ -5,7 +5,7 @@ widget = "publications"
 active = true
 date = 2017-06-16T00:00:00
 
-title = "Publications"
+title = "Working Papers"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -30,7 +30,7 @@ list_format = 3
 #  4: Technical report
 #  5: Book
 #  6: Book chapter
-publication_type = "2"
+publication_type = "7"
 
 # Exclude publications that are shown in the Selected Publications widget?
 exclude_selected = false

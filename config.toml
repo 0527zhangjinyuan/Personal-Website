@@ -55,19 +55,19 @@ enableGitInfo = false
   font = "default"
 
   # Your details.
-  name = "Dongdong Tian"
-  role = "Ph.D. in Geophysics"
+  name = "Jinyuan Zhang"
+  role = "Ph.D. in Finance"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "University of Science and Technology of China", url = "http://en.ustc.edu.cn/" } ]
+  organizations = [ { name = "INSEAD", url = "https://www.insead.edu/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "dongzhi@mail.ustc.edu.cn"
-  address = "Room 1127, Research Building, University of Science and Technology of China, No. 96, Jinzhai Road, Hefei, Anhui 230026, China."
+  avatar = "jinyuan.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "jinyuan.zhang@insead.edu"
+  address = "Boulevard de Constance, 77300 Fontainebleau, France"
   office_hours = ""
-  phone = "+86-15055117035"
+  phone = ""
   skype = ""
   telegram = ""
 
@@ -97,7 +97,7 @@ enableGitInfo = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 1
+  map = 0
   map_api_key = "AIzaSyBP5DIVloAvKk7NCjV2NzvsH7wLa5BB2Pw"
   latitude = "31.84127"
   longitude = "117.27036"
@@ -175,12 +175,14 @@ enableGitInfo = false
   #   translated.
   publication_types = [
     'Uncategorized',  # 0
-    'Conference paper',  # 1
-    'Journal article',  # 2
-    'Manuscript',  # 3
-    'Report',  # 4
+    'Conference proceedings',  # 1
+    'Journal',  # 2
+    'Work in progress',  # 3
+    'Technical report',  # 4
     'Book',  # 5
-    'Book section'  # 6
+    'Book chapter',  # 6
+    'working paper', # 7
+    'peer-reviewed' # 8
   ]
 
   # Configuration of talk pages.
@@ -225,34 +227,26 @@ enableGitInfo = false
   #   Full list: https://jpswalsh.github.io/academicons/
 
   [[params.social]]
-    icon = "orcid"
+    icon = "researchgate"
     icon_pack = "ai"
-    link = "http://orcid.org/0000-0001-7967-1197"
+    link = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2132338"
+
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.com/citations?user=VITag6sAAAAJ"
+    link = "https://scholar.google.com/citations?user=fGES-goAAAAJ&hl=fr"
 
-  [[params.social]]
-    icon = "researchgate"
-    icon_pack = "ai"
-    link = "https://www.researchgate.net/profile/Dongdong_Tian"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/seisman"
-
-  [[params.social]]
-    icon = "globe"
-    icon_pack = "fa"
-    link = "http://seisman.info"
+    link = "//github.com/0527zhangjinyuan"
 
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:dongzhi@mail.ustc.edu.cn"
+    link = "jinyuan.zhang@insead.edu"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -273,14 +267,15 @@ enableGitInfo = false
   weight = 2
 
 [[menu.main]]
-  name = "Researches"
-  url = "#researches"
+  name = "Publications"
+  url = "#publications_selected"
   weight = 3
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "Working Papers"
+  url = "#publications_working_papers"
   weight = 4
+
 
 [[menu.main]]
   name = "Talks"
@@ -288,24 +283,14 @@ enableGitInfo = false
   weight = 5
 
 [[menu.main]]
-  name = "Resources"
-  url = "#resources"
-  weight = 6
-
-[[menu.main]]
-  name = "Services"
-  url = "#services"
-  weight = 7
-
-[[menu.main]]
   name = "Awards"
   url = "#awards"
-  weight = 8
+  weight = 6
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 9
+  weight = 7
 
 # Taxonomies.
 [taxonomies]
