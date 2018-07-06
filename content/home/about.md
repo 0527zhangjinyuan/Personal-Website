@@ -14,6 +14,7 @@ weight = 5
     "Information Economics",
     "Market Microstructure",
     "FinTech",
+    "Econometrics"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -37,11 +38,7 @@ weight = 5
 Jinyuan Zhang is a Ph.D. in Finance at
 [INSEAD](https://www.insead.edu/).
 
-He is passionate about contributing to a further understanding of structure
-of the Earth's deep interior, characteristics of seismic sources
-(e.g. Microseismic, Explosions, Collaspe) and numerical simulations of seismic wavefield propagation.
-He is working on the study of
-[fine-scale structure of the Earth's inner core boundary]({{< ref "project/inner-core-boundary.md" >}}).
+ [fine-scale structure of the Earth's inner core boundary]({{< ref "project/inner-core-boundary.md" >}}).
 
 
-A complete cv can be downloaded {{% staticref "Dongdong_Tian_CV.pdf" "newtab" %}}here{{% /staticref %}}.
+A complete CV can be downloaded {{% staticref "CV_Jinyuan_Zhang.pdf" "newtab" %}}here{{% /staticref %}}.
