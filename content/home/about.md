@@ -35,10 +35,7 @@ weight = 5
 
 +++
 
-Jinyuan Zhang is a Ph.D. in Finance at
-[INSEAD](https://www.insead.edu/).
-
- [fine-scale structure of the Earth's inner core boundary]({{< ref "project/inner-core-boundary.md" >}}).
+Jinyuan Zhang is a third-year Ph.D. in Finance at [INSEAD](https://www.insead.edu/).
 
 
 A complete CV can be downloaded {{% staticref "CV_Jinyuan_Zhang.pdf" "newtab" %}}here{{% /staticref %}}.
