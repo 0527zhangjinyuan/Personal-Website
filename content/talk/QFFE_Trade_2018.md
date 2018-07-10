@@ -1,23 +1,23 @@
 +++
 title = "Dynamic Trade Informativeness"
-date = 2018-06-18 # Schedule page publish date.
+date = 2018-06-19 # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2018-07-09T09:00:00
-time_end = 2018-07-09T16:00:00
+time_start = 2018-06-09T13:30:00
+time_end = 2018-06-09T16:00:00
 
 # Abstract and optional shortened version.
 abstract = ""
 abstract_short = ""
 
 # Name of event and optional event URL.
-event = "ECMCRC workshop program"
-event_url = "https://www.cass.city.ac.uk/faculties-and-research/finance/education-and-events/2nd-european-capital-market-workshop"
+event = "2018 Quantitative Finance and Financial Econometrics"
+event_url = "https://qffe2018.sciencesconf.org/"
 
 # Location of event.
-location = "Cass Business School, London, UK."
+location = "Aix‐Marseille Université AMSE, Marseille, France"
 
 # Is this a selected talk? (true/false)
 selected = true

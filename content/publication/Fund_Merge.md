@@ -1,10 +1,10 @@
 +++
-title = "Dynamic Trade Informativeness"
-date = 2018-07-06T00:00:00
+title = "The Rise of Passive Funds Triggers Active Fund Consolidation"
+date = 2017-06-02T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["[Bart Zhou Yueshen](http://www.yueshen.me/)", "**Jinyuan Zhang**"]
+authors = ["**Jinyuan Zhang**"]
 
 # Publication type.
 # Legend:
@@ -15,14 +15,15 @@ authors = ["[Bart Zhou Yueshen](http://www.yueshen.me/)", "**Jinyuan Zhang**"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["7"]
+# 7 = Working paper
+publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "*SSRN working paper*"
+publication = ""
 publication_short = ""
 
 # Abstract and optional shortened version.
-abstract = "This paper develops a structural model to examine price dynamics. The key innovation is to allow trades’ permanent price impact to be time-varying—dynamic trade informativeness. A distribution- free filtering technique pins the real-world data to the model. The filtered series recover one-fifth of efficient price innovation through the dynamics of trade informativeness; depict the intraday pattern of information asymmetry; improve trades’ explanatory power for future returns; capture systemic informed trading patterns around intraday events; and gauge informed investors’ patience. The framework contributes to the better utilization of high-frequency trading data."
+abstract = "Consolidation among asset managers surged recently. What triggered this new wave of consolidation? Through a noisy rational expectation model with imperfect competition, we show that the rise of passive funds could attribute to the new change. As the size of passive funds grows, the market becomes more liquid. As a result, the rents extracted from noise traders shrinks and the competition among active funds becomes severer. These effects squeeze down the expected profit margins of active funds, hence stimulating them to form a coalition to gain monopolistic trading power. The rise of passive funds affects market outcomes (liquidity, price informativeness and volatility) both directly and indirectly through fund consolidation. The aforementioned two mechanisms have competing effects. Hence it is essential to control for fund consolidation when examining the (casual) relationship between passive funds and market outcomes."
 abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -43,7 +44,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3119538"
+url_pdf = ""
 url_preprint = ""
 url_code = ""
 url_dataset = ""

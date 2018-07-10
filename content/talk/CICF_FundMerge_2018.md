@@ -13,11 +13,11 @@ abstract = ""
 abstract_short = ""
 
 # Name of event and optional event URL.
-event = "Mutual Fund, Conference Room A, Shangri-La Hotel, Tianjin, China."
+event = "2018 China International Conference in Finance"
 event_url = "http://www.cicfconf.org/cicf-home"
 
 # Location of event.
-location = ""
+location = "Mutual Fund, Conference Room A, Shangri-La Hotel, Tianjin, China."
 
 # Is this a selected talk? (true/false)
 selected = true

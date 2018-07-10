@@ -1,23 +1,23 @@
 +++
-title = "Dynamic Trade Informativeness"
+title = "The Rise of Passive Funds Triggers Active Fund Consolidation"
 date = 2018-06-18 # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2018-07-09T09:00:00
-time_end = 2018-07-09T16:00:00
+time_start = 2018-05-10T09:00:00
+time_end = 2018-05-12T16:00:00
 
 # Abstract and optional shortened version.
 abstract = ""
 abstract_short = ""
 
 # Name of event and optional event URL.
-event = "ECMCRC workshop program"
-event_url = "https://www.cass.city.ac.uk/faculties-and-research/finance/education-and-events/2nd-european-capital-market-workshop"
+event = "Trans-Atlantic Doctoral Conference 2018"
+event_url = "http://www.cicfconf.org/cicf-home"
 
 # Location of event.
-location = "Cass Business School, London, UK."
+location = "London Business School, London, UK."
 
 # Is this a selected talk? (true/false)
 selected = true

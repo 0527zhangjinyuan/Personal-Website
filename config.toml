@@ -107,7 +107,7 @@ enableGitInfo = false
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Jan 2, 2006"
   #   Examples: "3:04 pm" or "15:04"
-  time_format = "3:04 PM"
+  time_format = "15:04 PM"
 
   # Show estimated reading time for posts?
   reading_time = true
@@ -116,11 +116,11 @@ enableGitInfo = false
   comment_count = true
 
   # Display next/previous section pager?
-  section_pager = false
+  section_pager = true
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -149,7 +149,7 @@ enableGitInfo = false
   #
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
-  highlight = false
+  highlight = true
   highlight_languages = []
   # highlight_style = "github"
 
@@ -194,7 +194,7 @@ enableGitInfo = false
   [params.publications]
     # Date format (refer to Go's date format: http://fuckinggodateformat.com )
     #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-    date_format = "January, 2006"
+    date_format = "Jan 2, 2006"
 
   # Configuration of project pages.
   [params.projects]
@@ -275,7 +275,6 @@ enableGitInfo = false
   name = "Working Papers"
   url = "#publications_working_papers"
   weight = 4
-
 
 [[menu.main]]
   name = "Talks"

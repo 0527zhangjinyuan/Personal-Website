@@ -1,10 +1,10 @@
 +++
-title = "Dynamic Trade Informativeness"
-date = 2018-07-06T00:00:00
+title = "Monetary Policy and Corporate Bond Mutual Fund Fragility"
+date = 2018-06-02T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["[Bart Zhou Yueshen](http://www.yueshen.me/)", "**Jinyuan Zhang**"]
+authors = ["**Jinyuan Zhang**"]
 
 # Publication type.
 # Legend:
@@ -15,14 +15,15 @@ authors = ["[Bart Zhou Yueshen](http://www.yueshen.me/)", "**Jinyuan Zhang**"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["7"]
+# 7 = Working paper
+publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "*SSRN working paper*"
+publication = ""
 publication_short = ""
 
 # Abstract and optional shortened version.
-abstract = "This paper develops a structural model to examine price dynamics. The key innovation is to allow trades’ permanent price impact to be time-varying—dynamic trade informativeness. A distribution- free filtering technique pins the real-world data to the model. The filtered series recover one-fifth of efficient price innovation through the dynamics of trade informativeness; depict the intraday pattern of information asymmetry; improve trades’ explanatory power for future returns; capture systemic informed trading patterns around intraday events; and gauge informed investors’ patience. The framework contributes to the better utilization of high-frequency trading data."
+abstract = "We examine the effects of monetary policy on the fragility of U.S. corporate bond mutual funds. The fund fragility originates from liquidation discount, which arises when investors redeem from funds. Through a global game model of investors runs, we show that the fund fragility can be exacerbated when Federal Reserve adopts an expansionary monetary policy. This is because monetary policy affects investors’ ex-ante asset allocation decisions. Moreover, in a liquid (an illiquid) market, the fund becomes more (less) fragile as monetary policy uncertainty increases. Using outflow-to-poor- performance sensitivity as a measure of the fund fragility, we empirically show that open-end mutual funds indeed become more fragile in an expansionary monetary policy regime, despite better funds’ performance."
 abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -43,7 +44,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3119538"
+url_pdf = ""
 url_preprint = ""
 url_code = ""
 url_dataset = ""
