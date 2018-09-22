@@ -35,7 +35,7 @@ weight = 5
 
 +++
 
-Jinyuan Zhang is a third-year Ph.D. in Finance at [INSEAD](https://www.insead.edu/).
+Jinyuan Zhang is a fourth-year Ph.D. in Finance at [INSEAD](https://www.insead.edu/).
 
 
 A complete CV can be downloaded {{% staticref "CV_Jinyuan_Zhang.pdf" "newtab" %}}here{{% /staticref %}}.
