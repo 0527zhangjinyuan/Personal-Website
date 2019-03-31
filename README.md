@@ -7,6 +7,9 @@ Powered by [Academic theme](https://github.com/gcushen/hugo-academic) for [Hugo]
 website: https://jinyuanzhang.netlify.com/
 
 ~~~
+$ git add *
+$ git commit -m "Commit message"
+$ git push origin master
 $ git submodule update --init --remote
 $ hugo server
 ~~~
